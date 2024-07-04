@@ -5,6 +5,7 @@ $params = @{
     IncludeEqual     = $true
     PassThru         = $true
 }
+Compare-Object @params
 
 # Expects output:
 #
